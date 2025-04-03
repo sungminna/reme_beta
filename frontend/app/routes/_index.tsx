@@ -125,7 +125,7 @@ export default function Index() {
                         </div>
 
                         {/* Main Content */}
-                        <div className="p-4 space-y-4 overflow-auto h-[calc(100%-120px)]">
+                        <div className="p-4 space-y-4 overflow-auto h-[calc(100%-120px)] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-white">
                           {/* Challenge Card */}
                           <div className="bg-white rounded-xl p-4 shadow-sm space-y-3">
                             <div className="flex justify-between items-center">

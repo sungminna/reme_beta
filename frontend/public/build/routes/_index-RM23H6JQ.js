@@ -8113,7 +8113,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/_index.tsx"
   );
-  import.meta.hot.lastModified = "1743695447001.6533";
+  import.meta.hot.lastModified = "1743695618386.8567";
 }
 var meta = () => {
   return [{
@@ -8257,7 +8257,7 @@ function Index() {
               lineNumber: 142,
               columnNumber: 25
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "p-4 space-y-4 overflow-auto h-[calc(100%-120px)]", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "p-4 space-y-4 overflow-auto h-[calc(100%-120px)] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-white", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "bg-white rounded-xl p-4 shadow-sm space-y-3", children: [
                 /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex justify-between items-center", children: [
                   /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h3", { className: "font-bold", children: "\uD604\uC7AC \uC9C4\uD589\uC911\uC778 \uCC4C\uB9B0\uC9C0" }, void 0, false, {
@@ -8871,4 +8871,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-5FOKY5CX.js.map
+//# sourceMappingURL=/build/routes/_index-RM23H6JQ.js.map
