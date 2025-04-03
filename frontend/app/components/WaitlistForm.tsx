@@ -28,7 +28,7 @@ export default function WaitlistForm() {
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
+            className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md text-gray-900"
             placeholder="your@email.com"
             required
           />
@@ -44,7 +44,7 @@ export default function WaitlistForm() {
           name="plan"
           value={plan}
           onChange={(e) => setPlan(e.target.value)}
-          className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md"
+          className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md text-gray-900"
         >
           {PLANS.map((plan) => (
             <option key={plan.id} value={plan.id}>
@@ -65,7 +65,7 @@ export default function WaitlistForm() {
             rows={3}
             value={feedback}
             onChange={(e) => setFeedback(e.target.value)}
-            className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
+            className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md text-gray-900"
             placeholder="Re:Me에 바라는 점이나 궁금한 점을 자유롭게 적어주세요."
           />
         </div>

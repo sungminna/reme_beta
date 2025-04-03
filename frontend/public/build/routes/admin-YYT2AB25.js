@@ -39,7 +39,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/utils/api.ts"
   );
-  import.meta.hot.lastModified = "1743659762683.75";
+  import.meta.hot.lastModified = "1743660329359.09";
 }
 var api = axios_default.create({
   baseURL: "/api",
@@ -78,7 +78,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/AdminDashboard.tsx"
   );
-  import.meta.hot.lastModified = "1743659762692.7083";
+  import.meta.hot.lastModified = "1743660329362.7307";
 }
 function AdminDashboard({
   entries
@@ -179,7 +179,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/admin.tsx"
   );
-  import.meta.hot.lastModified = "1743659762697.3796";
+  import.meta.hot.lastModified = "1743660329362.582";
 }
 function AdminPage() {
   _s();
@@ -362,4 +362,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   AdminPage as default
 };
-//# sourceMappingURL=/build/routes/admin-OLTSGMWI.js.map
+//# sourceMappingURL=/build/routes/admin-YYT2AB25.js.map

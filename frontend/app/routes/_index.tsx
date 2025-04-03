@@ -100,7 +100,7 @@ export default function Index() {
               className="bg-white rounded-xl shadow-lg overflow-hidden"
             >
               <div className="p-8">
-                <div className="text-2xl font-bold mb-6">Re:Me 앱 미리보기</div>
+                <div className="text-2xl font-bold mb-6 text-gray-900">Re:Me 앱 미리보기</div>
                 <div className="relative">
                   {/* iPhone Frame */}
                   <div className="relative mx-auto w-[375px] h-[754px] bg-black rounded-[45px] shadow-xl p-6">
@@ -110,15 +110,15 @@ export default function Index() {
                     </div>
                     {/* Screen Content */}
                     <div className="relative w-full h-full bg-gray-50 rounded-[35px] overflow-hidden">
-                      <div className="h-full">
+                      <div className="h-full text-gray-900">
                         {/* Header */}
                         <div className="flex items-center justify-between p-4 border-b">
                           <span className="text-xl font-bold">Re:Me</span>
                           <div className="flex space-x-3">
-                            <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <svg className="w-6 h-6 stroke-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                             </svg>
-                            <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <svg className="w-6 h-6 stroke-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                               <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                             </svg>
                           </div>

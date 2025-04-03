@@ -7951,7 +7951,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/WaitlistForm.tsx"
   );
-  import.meta.hot.lastModified = "1743659816659.233";
+  import.meta.hot.lastModified = "1743695413465.2756";
 }
 function WaitlistForm() {
   _s();
@@ -7968,7 +7968,7 @@ function WaitlistForm() {
         lineNumber: 35,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { type: "email", name: "email", id: "email", value: email, onChange: (e) => setEmail(e.target.value), className: "shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md", placeholder: "your@email.com", required: true }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("input", { type: "email", name: "email", id: "email", value: email, onChange: (e) => setEmail(e.target.value), className: "shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md text-gray-900", placeholder: "your@email.com", required: true }, void 0, false, {
         fileName: "app/components/WaitlistForm.tsx",
         lineNumber: 39,
         columnNumber: 11
@@ -7988,7 +7988,7 @@ function WaitlistForm() {
         lineNumber: 44,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("select", { id: "plan", name: "plan", value: plan, onChange: (e) => setPlan(e.target.value), className: "mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md", children: PLANS.map((plan2) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("option", { value: plan2.id, children: plan2.name }, plan2.id, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("select", { id: "plan", name: "plan", value: plan, onChange: (e) => setPlan(e.target.value), className: "mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md text-gray-900", children: PLANS.map((plan2) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("option", { value: plan2.id, children: plan2.name }, plan2.id, false, {
         fileName: "app/components/WaitlistForm.tsx",
         lineNumber: 48,
         columnNumber: 30
@@ -8008,7 +8008,7 @@ function WaitlistForm() {
         lineNumber: 55,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("textarea", { id: "feedback", name: "feedback", rows: 3, value: feedback, onChange: (e) => setFeedback(e.target.value), className: "shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md", placeholder: "Re:Me\uC5D0 \uBC14\uB77C\uB294 \uC810\uC774\uB098 \uAD81\uAE08\uD55C \uC810\uC744 \uC790\uC720\uB86D\uAC8C \uC801\uC5B4\uC8FC\uC138\uC694." }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "mt-1", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("textarea", { id: "feedback", name: "feedback", rows: 3, value: feedback, onChange: (e) => setFeedback(e.target.value), className: "shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md text-gray-900", placeholder: "Re:Me\uC5D0 \uBC14\uB77C\uB294 \uC810\uC774\uB098 \uAD81\uAE08\uD55C \uC810\uC744 \uC790\uC720\uB86D\uAC8C \uC801\uC5B4\uC8FC\uC138\uC694." }, void 0, false, {
         fileName: "app/components/WaitlistForm.tsx",
         lineNumber: 59,
         columnNumber: 11
@@ -8113,7 +8113,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/routes/_index.tsx"
   );
-  import.meta.hot.lastModified = "1743660011095.8032";
+  import.meta.hot.lastModified = "1743695447001.6533";
 }
 var meta = () => {
   return [{
@@ -8206,7 +8206,7 @@ function Index() {
       }, transition: {
         delay: 0.3
       }, className: "bg-white rounded-xl shadow-lg overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "p-8", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "text-2xl font-bold mb-6", children: "Re:Me \uC571 \uBBF8\uB9AC\uBCF4\uAE30" }, void 0, false, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "text-2xl font-bold mb-6 text-gray-900", children: "Re:Me \uC571 \uBBF8\uB9AC\uBCF4\uAE30" }, void 0, false, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 130,
           columnNumber: 17
@@ -8221,7 +8221,7 @@ function Index() {
             lineNumber: 135,
             columnNumber: 21
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "relative w-full h-full bg-gray-50 rounded-[35px] overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "h-full", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "relative w-full h-full bg-gray-50 rounded-[35px] overflow-hidden", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "h-full text-gray-900", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex items-center justify-between p-4 border-b", children: [
               /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("span", { className: "text-xl font-bold", children: "Re:Me" }, void 0, false, {
                 fileName: "app/routes/_index.tsx",
@@ -8229,7 +8229,7 @@ function Index() {
                 columnNumber: 27
               }, this),
               /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "flex space-x-3", children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("svg", { className: "w-6 h-6", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" }, void 0, false, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("svg", { className: "w-6 h-6 stroke-gray-700", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" }, void 0, false, {
                   fileName: "app/routes/_index.tsx",
                   lineNumber: 146,
                   columnNumber: 31
@@ -8238,7 +8238,7 @@ function Index() {
                   lineNumber: 145,
                   columnNumber: 29
                 }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("svg", { className: "w-6 h-6", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" }, void 0, false, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("svg", { className: "w-6 h-6 stroke-gray-700", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("path", { strokeLinecap: "round", strokeLinejoin: "round", d: "M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" }, void 0, false, {
                   fileName: "app/routes/_index.tsx",
                   lineNumber: 149,
                   columnNumber: 31
@@ -8871,4 +8871,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-TNTO2ZYU.js.map
+//# sourceMappingURL=/build/routes/_index-5FOKY5CX.js.map
