@@ -2,7 +2,6 @@ import type { MetaFunction, ActionFunctionArgs } from "@remix-run/node";
 import { motion } from "framer-motion";
 import { Form, useActionData, useNavigation } from "@remix-run/react";
 import { useState } from "react";
-import { api } from "~/lib/api";
 import WaitlistForm from "~/components/WaitlistForm";
 import { PLANS, BRAND_COLOR } from "~/constants/plans";
 import axios from "axios";
@@ -14,7 +13,7 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-const API_URL = "http://localhost:8000";
+const API_URL = "http://backend:8000";
 
 export const action = async ({ request }: ActionFunctionArgs) => {
   const formData = await request.formData();
