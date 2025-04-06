@@ -357,13 +357,13 @@ export default function Index() {
                         />
                       </svg>
                       <span className="text-gray-500">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+              </li>
+            ))}
+          </ul>
               </motion.div>
             ))}
           </div>
-        </div>
+      </div>
       </motion.section>
     </div>
   );

@@ -7951,7 +7951,7 @@ if (import.meta) {
     //@ts-expect-error
     "app/components/WaitlistForm.tsx"
   );
-  import.meta.hot.lastModified = "1743695413465.2756";
+  import.meta.hot.lastModified = "1743695475821.8647";
 }
 function WaitlistForm() {
   _s();
@@ -8871,4 +8871,4 @@ export {
   Index as default,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-RM23H6JQ.js.map
+//# sourceMappingURL=/build/routes/_index-JFLDTCAX.js.map
